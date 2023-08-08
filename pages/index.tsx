@@ -1,13 +1,9 @@
-
-import { Inter } from "next/font/google";
-// import styles from "@/styles/Home.module.css";
-
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Home() {
+function HomePage() {
   return (
     <div>
       <h1>Hello</h1>
     </div>
   );
 }
+
+export default HomePage;

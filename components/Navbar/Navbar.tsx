@@ -1,13 +1,30 @@
 import React from "react";
 import Image from "next/image";
-import PLLogo from "@/public/Images/PLLogo.jpg"
+import appIcon from "@/public/Images/app-icon.png";
+import Link from "next/link";
 
 const Navbar: React.FC = () => {
   return (
     <header>
       <div>
-        <Image src={PLLogo} alt="logo" />
+        <Image src={appIcon} alt="logo" />
       </div>
+      <nav>
+        <ul>
+          <li>
+            <Link href="/standings">Standings</Link>
+          </li>
+          <li>
+            <Link href="/standings">Standings</Link>
+          </li>
+          <li>
+            <Link href="/standings">Standings</Link>
+          </li>
+          <li>
+            <Link href="/standings">Standings</Link>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 };

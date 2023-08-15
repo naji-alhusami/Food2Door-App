@@ -1,15 +1,18 @@
 import React from "react";
 import Image from "next/image";
-import appIcon from "@/public/Images/app-icon.png";
 import Link from "next/link";
+
+import appIcon from "@/public/Images/app-icon.png";
+import classes from "./Navbar.module.css";
 
 const Navbar: React.FC = () => {
   return (
-    <header>
-      <div>
+    <nav className={classes.Navbar}>
+      <div className={classes["icon-title"]}>
         <Image src={appIcon} alt="logo" />
+        <h1 className={classes.header}>FOOD2DOOR</h1>
       </div>
-      <nav>
+      <div>
         <ul>
           <li>
             <Link href="/standings">Standings</Link>
@@ -24,8 +27,8 @@ const Navbar: React.FC = () => {
             <Link href="/standings">Standings</Link>
           </li>
         </ul>
-      </nav>
-    </header>
+      </div>
+    </nav>
   );
 };
 

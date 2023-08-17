@@ -3,7 +3,7 @@
   cursor: pointer;
   font: inherit;
   border: none;
-  background-color: #114d01;
+  background-color: #159019;
   color: white;
   padding: 5%;
   display: flex;
@@ -15,7 +15,7 @@
 
 .button:hover,
 .button:active {
-  background-color: #122c00;
+  background-color: #225100;
 }
 
 .icon {
@@ -25,7 +25,8 @@
 }
 
 .badge {
-  background-color: #17b917;
+  color: #2b920c;
+  background-color: white;
   padding: 0.25rem 1rem;
   border-radius: 25px;
   margin-left: 0.5rem;
@@ -34,7 +35,7 @@
 
 .button:hover .badge,
 .button:active .badge {
-  background-color: #2b920c;
+  color: #225100;
 }
 
 .bump {

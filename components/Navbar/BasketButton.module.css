@@ -1,11 +1,12 @@
 .button {
-  margin-right: 4rem;
+  width: auto;
+  margin-right: 3rem;
   cursor: pointer;
   font: inherit;
   border: none;
   background-color: #159019;
   color: white;
-  padding: 5%;
+  padding: 3%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -18,10 +19,15 @@
   background-color: #225100;
 }
 
+.buttonName {
+  margin: 0 5% 0 5%;
+  width: 8rem;
+}
+
 .icon {
   width: 1.35rem;
   height: 1.35rem;
-  /* margin-right: 0.2rem; */
+  /* margin-right: 1rem; */
 }
 
 .badge {

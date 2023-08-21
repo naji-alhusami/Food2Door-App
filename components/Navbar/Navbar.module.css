@@ -16,14 +16,19 @@
   margin-top: 0.5rem;
 }
 
-/* .navbar-container {
+.navbarContent {
+  width: 70%;
+}
+
+.navbarButton {
+  width: 70%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  flex-direction: row;
-} */
+}
 
 .navbarList {
+  font-family: "Zen Dots", cursive;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -32,16 +37,26 @@
 }
 
 .navbarList li {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
   color: black;
-  font-size: large;
+  font-size: medium;
+  display: flex;
+  flex-direction: row;
+  min-width: 2rem;
+  padding: 1.9rem 0 1.9rem 0;
+  transition: color 0.2s, font-weight 0.3s, font-size 0.3s, border-bottom 0.3s; /* Adding transitions for smooth animation */
 }
 
-/* .navbarList li:hover {
-  text-decoration: underline green;
-} */
+.navbarList li:hover {
+  font-size: medium;
+  font-weight: bold;
+  color: #159019; /* Change this to the desired color */
+  border-bottom: 3px solid #159019;
+}
 
 .icon-title {
-  width: 15rem;
+  width: 24rem;
   height: 8rem;
   border-radius: 0 0 50% 50%;
   display: flex;
@@ -51,9 +66,6 @@
   margin-top: 0.5rem;
   background-color: white;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .icon-title-content {

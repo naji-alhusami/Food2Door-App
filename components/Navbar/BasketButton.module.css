@@ -1,12 +1,12 @@
 .button {
-  width: auto;
+  /* width: auto; */
   margin-right: 3rem;
   cursor: pointer;
   font: inherit;
   border: none;
   background-color: #159019;
   color: white;
-  padding: 3%;
+  padding: 2%;
   display: flex;
   justify-content: space-around;
   align-items: center;

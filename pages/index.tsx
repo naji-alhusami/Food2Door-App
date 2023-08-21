@@ -1,7 +1,10 @@
+import React from 'react';
+import HomeBackground from "@/components/HomeBackground/HomeBackground";
+
 function HomePage() {
   return (
     <div>
-      <h1>Hello</h1>
+      <HomeBackground />
     </div>
   );
 }

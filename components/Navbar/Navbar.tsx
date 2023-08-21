@@ -4,7 +4,6 @@ import Link from "next/link";
 
 import BasketButton from "./BasketButton";
 import appIcon from "@/public/Images/appIcon.png";
-import bgImage from "@/public/Images/bgImage.jpg";
 import classes from "./Navbar.module.css";
 
 const Navbar: React.FC = () => {
@@ -32,9 +31,7 @@ const Navbar: React.FC = () => {
           <BasketButton />
         </div>
       </nav>
-      <div className={classes["food-image"]}>
-        <Image src={bgImage} alt="foodImage" />
-      </div>
+      
     </Fragment>
   );
 };

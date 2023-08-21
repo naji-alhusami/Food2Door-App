@@ -1,0 +1,25 @@
+.food-image {
+  position: relative;
+  /* width: 100%; */
+  height: 38rem;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.food-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.location {
+  position: absolute;
+  width: 35rem;
+  top: 17rem;
+  left: 4rem;
+}
+
+.location h1 {
+  color: white;
+  font-size: 35px;
+}

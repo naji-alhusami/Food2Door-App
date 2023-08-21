@@ -40,18 +40,18 @@
   margin-right: 1.5rem;
   margin-left: 1.5rem;
   color: black;
-  font-size: medium;
+  font-size: small;
   display: flex;
   flex-direction: row;
   min-width: 2rem;
   padding: 1.9rem 0 1.9rem 0;
-  transition: color 0.2s, font-weight 0.3s, font-size 0.3s, border-bottom 0.3s; /* Adding transitions for smooth animation */
+  transition: color 0.2s, font-weight 0.3s, font-size 0.3s, border-bottom 0.3s;
 }
 
 .navbarList li:hover {
-  font-size: medium;
+  font-size: small;
   font-weight: bold;
-  color: #159019; /* Change this to the desired color */
+  color: #159019;
   border-bottom: 3px solid #159019;
 }
 
@@ -82,14 +82,14 @@
 }
 
 .food-image {
-  width: 100%;
-  height: 25rem;
+  /* width: 100%; */
+  height: 38rem;
   z-index: 0;
   overflow: hidden;
 }
 
 .food-image img {
-  width: 105%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
 }

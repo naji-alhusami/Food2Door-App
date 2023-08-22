@@ -33,36 +33,38 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Mobile Screens */}
-        <div className="navbar-small-screens-content">
+        <div
+          className={`${classes.navbarSmallScreen} ${
+            showNavbarInResponsive ? classes.show : ""
+          }`}
+        >
           {showNavbarInResponsive && (
-            <div>
-              <ul>
-                <Link
-                  href="/"
-                  onClick={() => {
-                    setShowNavbarInResponsive(!showNavbarInResponsive);
-                  }}
-                >
-                  <li>HOME</li>
-                </Link>
-                <Link
-                  href="/iconicplaces"
-                  onClick={() => {
-                    setShowNavbarInResponsive(!showNavbarInResponsive);
-                  }}
-                >
-                  <li>ICONIC PLACES</li>
-                </Link>
-                <Link
-                  href="/about"
-                  onClick={() => {
-                    setShowNavbarInResponsive(!showNavbarInResponsive);
-                  }}
-                >
-                  <li>ABOUT</li>
-                </Link>
-              </ul>
-            </div>
+            <ul>
+              <Link
+                href="/"
+                onClick={() => {
+                  setShowNavbarInResponsive(!showNavbarInResponsive);
+                }}
+              >
+                <li>HOME</li>
+              </Link>
+              <Link
+                href="/iconicplaces"
+                onClick={() => {
+                  setShowNavbarInResponsive(!showNavbarInResponsive);
+                }}
+              >
+                <li>CONTACT</li>
+              </Link>
+              <Link
+                href="/about"
+                onClick={() => {
+                  setShowNavbarInResponsive(!showNavbarInResponsive);
+                }}
+              >
+                <li>ABOUT</li>
+              </Link>
+            </ul>
           )}
         </div>
 

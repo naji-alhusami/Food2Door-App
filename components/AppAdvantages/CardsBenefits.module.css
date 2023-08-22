@@ -1,5 +1,5 @@
 .header {
-  color: black;
+  /* color: #159019; */
   margin: 4rem 0 0 4rem;
 }
 
@@ -10,13 +10,12 @@
 
 .cards {
   display: flex;
-  flex-wrap: wrap; 
-
+  flex-wrap: wrap;
 }
 
 .card {
-  margin:4rem;
-  flex: 1; 
+  margin: 4rem;
+  flex: 1;
   width: 16rem;
   padding: 1.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
@@ -35,6 +34,7 @@
 .cardContent h2 {
   font-size: 1.6rem;
   margin-bottom: 2rem;
+  color: #159019;
 }
 
 .cardContent p {

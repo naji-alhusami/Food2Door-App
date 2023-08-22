@@ -72,3 +72,9 @@
     display: none;
   }
 }
+
+@media (max-width: 520px) {
+  .button{
+    margin-right: 1rem;
+  }
+}

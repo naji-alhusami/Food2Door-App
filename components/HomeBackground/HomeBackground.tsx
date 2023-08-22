@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import bgImage from "@/public/Images/bgImage.jpg";
+import bgImage from "@/public/Images/bgImage.avif";
 import classes from "./HomeBackground.module.css";
 
 const HomeBackground = () => {

@@ -55,9 +55,72 @@
   color: white;
   font: inherit;
   font-weight: bold;
-
 }
 
 .search-button:hover {
   background-color: #225100;
+}
+
+@media (max-width: 865px) {
+  .location {
+    width: 25rem;
+  }
+
+  .location h1 {
+    color: white;
+    font-size: 25px;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    width: 25rem;
+    align-items: flex-start;
+  }
+
+  .search-input {
+    width: 100%;
+
+    flex: 1;
+  }
+
+  .search-button {
+    margin-top: 1rem;
+    cursor: pointer;
+    height: 2rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 520px) {
+  .location {
+    width: 15rem;
+  }
+
+  .location h1 {
+    color: white;
+    font-size: 25px;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    width: 15rem;
+    align-items: flex-start;
+  }
+
+  .search-input {
+    width: 100%;
+
+    flex: 1;
+  }
+
+  .search-button {
+    margin-top: 1rem;
+    cursor: pointer;
+    height: 2rem;
+    width: 100%;
+  }
 }

@@ -5,7 +5,7 @@
   border: none;
   background-color: #159019;
   color: white;
-  padding: 2%;
+  padding: 6px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -42,7 +42,7 @@
   color: #225100;
 }
 
-.bump {
+/* .bump {
   animation: bump 300ms ease-out;
 }
 
@@ -62,9 +62,12 @@
   100% {
     transform: scale(1);
   }
-}
+} */
 
-@media (max-width: 600px) {
+@media (max-width: 966px) {
+  .button {
+    padding: 6px;
+  }
   .buttonName {
     display: none;
   }

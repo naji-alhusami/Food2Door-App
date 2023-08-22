@@ -11,7 +11,7 @@
   position: relative;
 }
 
-.Navbar h1 {
+.icon-title h1 {
   font-family: "Zen Dots", cursive;
   margin-top: 0.5rem;
 }
@@ -56,7 +56,7 @@
 }
 
 .icon-title {
-  width: 24rem;
+  min-width: 15rem;
   height: 8rem;
   border-radius: 0 0 50% 50%;
   display: flex;
@@ -68,15 +68,67 @@
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.icon-title-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 0.5rem;
-}
-
 .header {
   color: #159019;
   margin-left: 5%;
+}
+
+.responsiveNavbar {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .icon-title {
+    margin-top: 0;
+    border-radius: 0;
+    box-shadow: none;
+    height: 0;
+  }
+  .icon {
+    display: none;
+  }
+
+  .icon-title h1 {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 860px) {
+  .navbarList li {
+    display: none;
+  }
+
+  .responsiveNavbar {
+    display: block;
+    margin-left: 4rem;
+  }
+
+  .navbarButton {
+    width: 0;
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: center; */
+  }
+
+  .navbarButton {
+    width: 0;
+    height: 0;
+  }
+
+  .navbarContent {
+    width: 0;
+  }
+
+  .icon-title h1 {
+    /* align-items: center; */
+    width: 190%;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .icon-title h1 {
+    width: 140%;
+    font-size: 130%;
+  }
 }

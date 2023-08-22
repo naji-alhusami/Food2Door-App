@@ -18,13 +18,13 @@ const CardsBenefitsData: AppBenefitsProps[] = [
     image: discount,
   },
   {
-    id: "1",
+    id: "2",
     header: "Save Time",
     text: "FOOD2DOOR offers you saves the time and resources typically spent on travelling to pick up a meal.",
     image: clock,
   },
   {
-    id: "1",
+    id: "3",
     header: "Perks & Options",
     text: "FOOD2DOOR offers you offers you enticing promotions and limitless dining options.",
     image: anytime,
